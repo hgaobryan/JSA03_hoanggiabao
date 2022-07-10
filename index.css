@@ -1,0 +1,38 @@
+.head .nav{
+    padding: 10px;
+}
+.head a{
+text-transform: uppercase
+
+}
+body{
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.title{
+    text-transform: uppercase;
+}
+.button-container .button.primary{
+    border-radius: 99px;
+    color: white;
+    background-color: orange;
+    border: none;
+    padding: 10px;
+}
+.button-container .button.secondary{
+    border-radius: 99px;
+    color: orange;
+    background-color: transparent;
+    border: 1px solid orange;
+    padding: 10px;
+}
