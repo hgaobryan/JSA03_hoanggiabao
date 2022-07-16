@@ -1,10 +1,14 @@
 body{
     margin: 0px;
+    font-family: 'roboto','lato',sans-serif;
+    font-weight: 400;
 }
 .head .nav{
     padding: 30px;
     text-transform: uppercase
+    
 }
+
 
 
 .head{
@@ -33,6 +37,7 @@ body{
 .title{
     text-transform: uppercase;
     color: white;
+    font-family: sans-serif;
 }
 .button-container .button.primary{
     border-radius: 99px;
@@ -83,7 +88,8 @@ body{
     padding-top: 200px;
     display: flex;
     gap: 50px;
-    padding-left: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 
