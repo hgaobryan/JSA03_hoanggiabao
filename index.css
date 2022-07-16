@@ -1,13 +1,23 @@
-.head .nav{
-    padding: 10px;
-}
-.head a{
-text-transform: uppercase
-
-}
 body{
+    margin: 0px;
+}
+.head .nav{
+    padding: 30px;
+    text-transform: uppercase
+}
+
+
+.head{
+    color: white;
+}
+.sec1{
+    padding-top: 20px;
     padding-left: 150px;
     padding-right: 150px;
+    padding-bottom: 300px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('http://www.omnifood.net/resources/CSS/img/hero-min.jpg');
+    background-size: cover;
+    
 }
 
 .logo {
@@ -18,9 +28,11 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
 }
 .title{
     text-transform: uppercase;
+    color: white;
 }
 .button-container .button.primary{
     border-radius: 99px;
@@ -36,3 +48,44 @@ body{
     border: 1px solid orange;
     padding: 10px;
 }
+.title{
+    padding-top: 200px;
+}
+
+.head2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.container2{
+    padding-top: 100px;
+    padding-bottom: 300px;
+}
+
+.title2{
+    padding-top: 50px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.box365{
+    text-align: left;
+}
+
+.boxready{
+    
+    text-align: left;
+    
+}
+
+.text{
+    padding-top: 200px;
+    display: flex;
+    gap: 50px;
+    padding-left: 100px;
+}
+
+
+
+
