@@ -140,6 +140,27 @@ body{
     opacity: 1;
 }
 
+.title4{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 60px;
+}
+
+.text4{
+    padding-left: 800px;
+    padding-top: 100px;
+    padding-right: 260px;
+    font-size: 20px;
+}
+
+.text42{
+    padding-top: 20px;
+}
+
+.text43{
+    padding-top: 20px;
+}
 
 
 
