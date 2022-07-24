@@ -1,0 +1,70 @@
+body{
+    margin: 0px;
+    font-family: 'Dosis', sans-serif;
+}
+
+.header{
+    position: fixed;
+    text-align: center;
+    color: white;
+    width: 100%;
+    
+}
+.timein{
+    font-size: 24px;
+    padding-left: 10px;
+}
+
+.date{
+    font-size: 24px;
+    padding-left: 10px;
+}
+
+.xay{
+    color: white;
+}
+
+.sec1container{
+    padding-top: 240px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.dk{
+    padding-top: 20px;
+    color: white;
+
+}
+
+.banbutton{
+    border-radius: 10px;
+    background-color: #FFC500;
+    border: unset;
+    
+}
+
+.banbutton{
+    padding: 20px;
+}
+
+.sec1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://khuchieunghi.github.io/JSA03-khuchieunghi/public/background.png');
+    background-size: cover;
+    height: 100vh;
+}
+
+.sec2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.sec2 picture{
+    width: 100%;
+    line-height: 0;
+    }
+
+    .sec2 img{
+        width: 100%;
+    }
+        
+
