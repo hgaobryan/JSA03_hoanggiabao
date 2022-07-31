@@ -75,5 +75,9 @@ body{
     .sec2 img{
         width: 100%;
     }
+
+.banbutton :hover{
+    text-decoration: underline;
+}
         
 
