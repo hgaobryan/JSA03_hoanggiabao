@@ -35,8 +35,50 @@ setInterval(() => {
     
 }, 1000)
 
+function submit(){
+    var ten
+    var tuoi
+    ten=document.getElementById("name").value;
+    tuoi=document.getElementById("age").value;
+    console.log(ten, tuoi)
+
+    window.localStorage.setItem('tenstore', ten);
+    window.localStorage.setItem('tuoistore', tuoi);
+    alert("đã lưu thành công !")
+    
+}
+
+function kt(){
+    var ten = window.localStorage.getItem("tenstore")
+        var tuoi = window.localStorage.getItem("tuoistore")
+    if( ten && tuoi){
+        
+
+        alert("Tên: "+ten+" Tuổi: "+tuoi)
+        
+    }
+    else{
+        alert("No information")
+    }
+}
+
+function xoa(){
+    window.localStorage.removeItem("tenstore");
+    window.localStorage.removeItem("tuoistore");
+    alert("đã xóa thành công")
+}
+
+
+
 
 
 // -- Function: Input (a, b) number
 // output: a + b
 
+// setInterval(() => {
+
+
+// //     var ngayhomnay = new Date();
+// //     document.getElementById('ngay').innerHTML = ngayhomnay.toLocaleString()
+
+// // },1000)
